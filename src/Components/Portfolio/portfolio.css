@@ -1,0 +1,61 @@
+*{
+    color: whitesmoke;
+    padding: 0;
+}
+.PortContainer{
+    background-color: black;
+    height: 100%;
+}
+
+.work{
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-gap: 55px;
+    grid-template-areas: 
+    "image"
+    "heading"
+    "text"
+    "fab";
+    text-align: center;
+    margin: auto;
+    padding: 55px;
+    height: 100%;
+    width: 75%;
+}
+
+.image{
+    height: 50%;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  
+}
+
+.item{
+    background-color: whitesmoke;
+    /* box-shadow: 5px 5px 15px white; */
+	border-radius: 18px;
+	text-align: center;
+    transition: 0.3s ease;
+}
+
+.item:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px whitesmoke;
+}
+.title{
+    padding: 15px;
+    margin-left: 10%;
+    font-size: 50px;
+    font-weight: 200;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+.fab{
+    color: black;
+    padding: 10px;
+}
+
+.goto:hover{
+cursor: pointer;
+}

@@ -1,0 +1,210 @@
+
+*{
+    padding: 0;
+    box-sizing: 0;
+}
+
+.imgCon{
+    float: left;
+    width: 65%;
+    height: 100vh;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+.intro{
+    float: right;
+    width: 35%;
+    height: 100vh;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.intro h1{
+    font-family: 'Nova Mono', monospace;
+    font-weight: bolder;
+    font-size: 35px;
+    text-align: center;
+}
+
+.intro1, .intro3{
+    
+    font-size: 45px;
+}
+
+button {
+  background-color: black;
+    margin-top: 85px;
+    border: rgba(250, 56, 146, 0.918);
+    border-radius: 25px;
+    color: whitesmoke; 
+    list-style: none;
+    cursor: pointer;
+    font-size: 1em;
+    letter-spacing: .1em;
+    box-sizing: 0;
+    text-transform: uppercase;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    text-shadow: 0 0 10px rgba(250, 56, 146, 0.918), 0 0 20px rgba(250, 56, 146, 0.918), 0 0 30px rgba(250, 56, 146, 0.918), 0 0 40px rgba(250, 56, 146, 0.918), 0 0 50px rgba(250, 56, 146, 0.918), 0 0 60px rgba(250, 56, 146, 0.918), 0 0 70px rgba(250, 56, 146, 0.918);
+    /* box-shadow: inset 5px 5px 20px rgba(250, 56, 146, 0.918),0 0 20px 0px rgba(250, 56, 146, 0.918), 0 0 20px 10px rgba(250, 56, 146, 0.918), 0px 0px 20px 0px rgba(250, 56, 146, 0.918); */
+  }
+
+  button:hover {
+    color: whitesmoke;
+}
+
+.btns{
+display: flex;
+justify-content: space-around;
+align-items: center;
+align-self: center;
+align-content: center;
+}
+
+
+.typing::before{
+    content: "{";
+    font-size: 38px;
+}
+
+.typing::after{
+    content: "{";
+    font-size: 38px;
+}
+
+
+.typing p {
+    border-right: .15em solid rgba(250, 56, 146, 0.918);
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 28px;
+    margin-left: 40px;
+  }
+
+  
+  .type1{
+    width: 5.0em;
+    -webkit-animation: type 2s steps(40, end), blink .5s step-end infinite alternate;
+    animation: type 2s steps(40, end), blink .5s step-end infinite alternate;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    font-family: "Courier";
+    
+  }
+
+  .type2
+  {
+    width: 2.9em;
+    opacity: 0;
+    -webkit-animation: type2 2s steps(40, end), blink .5s step-end infinite alternate;
+    animation: type2 2s steps(40, end), blink .5s step-end infinite alternate;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    font-family: 'Yellowtail', cursive;
+  }
+
+  .type3{
+    width: 5.3em;
+    opacity: 0;
+    -webkit-animation: type3 5s steps(35, end), blink .5s step-end infinite alternate;
+    animation: type3 5s steps(35, end), blink .5s step-end infinite alternate;
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .15em solid rgba(250, 56, 146, 0.918);
+    }
+    100% {
+      border: none;
+    }
+  }
+  @-webkit-keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .15em solid rgba(250, 56, 146, 0.918);
+    }
+    100% {
+      border: none;
+    }
+  }
+  
+  @keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid rgba(250, 56, 146, 0.918);
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  @-webkit-keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid rgba(250, 56, 146, 0.918);
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  @keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  @-webkit-keyframes blink {
+    50% {
+      border-color: tranparent;
+    }
+  }

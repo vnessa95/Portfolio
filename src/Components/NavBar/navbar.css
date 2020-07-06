@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    box-sizing: 0;
+
+}
+
+.NavContainer{
+    background-color: black;
+    height: 115px;
+    text-align: center;
+    padding: 10px 0;
+}
+ 
+.links ul {
+    margin: 0 2px;
+    list-style: none;
+    margin: 0 5px;
+    padding: 0;
+}
+
+.links li {
+   display: inline-block;  
+   padding: 5px 5px;
+   float: right;
+   font-family: 'Nova Mono', monospace;
+}
+
+.links a{
+    font-size: 18px;
+    line-height: 1.3em;
+    box-sizing: border-box;
+    background-color: black;
+    list-style-type: none;
+    border-radius: 20%;
+    padding: 15px 15px;
+    color: whitesmoke;
+}
+
+    .links a:hover {
+    color: whitesmoke;
+    text-shadow: 0 0 10px rgba(253, 89, 138, 0.918), 0 0 30px  rgba(253, 89, 138, 0.918), 0 0 40px rgba(253, 89, 138, 0.918), 0 0 50px rgba(250, 56, 146, 0.918), 0 0 60px rgba(253, 89, 138, 0.918), 0 0 70px rgba(253, 89, 138, 0.918);
+
+}

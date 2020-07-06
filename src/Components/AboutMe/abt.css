@@ -1,0 +1,51 @@
+.AbtContainer{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+.img1{
+    clip-path: circle();
+    shape-outside: circle();
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.name{
+    background-image: linear-gradient(120deg, rgb(235, 158, 194) 0%, rgb(206, 9, 101) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 95%;
+    transition: background-size 0.25s ease-in;
+}
+
+.me{
+    padding: 15px;
+    font-size: 18px;
+    font-family: 'Nova Mono', monospace;
+}
+
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.fab{
+  color: pink;
+  box-shadow: inset 0px 0px 10px #ffbbbb, 0px 0px 10px #ff0000;
+  text-shadow: 0px 0px 10px #ff0000, 2px 2px 4px #000;
+  border: 1px solid pink;
+  border-radius: 15px;
+}
+
+.fab:hover{
+cursor: pointer;
+}
+
+.p{
+    height: 100vh;
+    margin-right: 100px;
+}
+
