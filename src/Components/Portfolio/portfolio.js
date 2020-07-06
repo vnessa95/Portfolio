@@ -19,8 +19,8 @@ export default class Portfolio extends Component {
 <img className="image"  src='img/navbar.png' alt="navbarsite"></img>
 </a>
 <p className="txt"></p>
-<a href="https://github.com/vnessa95/jsnavbar" className="goto"><i className="fab fa-github-square fa-2x"></i></a>
-<i className="fab fa-node-js fa-2x"></i>
+<a href="https://github.com/vnessa95/jsnavbar" className="goto"><i id="i" className="fab fa-github-square fa-2x"></i></a>
+<i id="i" className="fab fa-node-js fa-2x"></i>
 </div>
 
 <div className="item">
@@ -28,9 +28,9 @@ export default class Portfolio extends Component {
 <img className="image"  src='/img/hotelsite.png' alt="hotelsite"></img>
 </a>
 <p className="txt"></p>
-<i className="fab fa-react fa-2x"></i>
+<i id="i" className="fab fa-react fa-2x"></i>
 <a href="https://github.com/vnessa95/veeshotel" className="goto"><i className="fab fa-github-square fa-2x"></i></a>
-<i className="fab fa-node-js fa-2x"></i>
+<i id="i" className="fab fa-node-js fa-2x"></i>
 </div>
 
 <div className="item">
@@ -38,8 +38,8 @@ export default class Portfolio extends Component {
 <img className="image"  src='/img/numgame.png' alt="numgamesite"></img>
 </a>
 <p className="txt"></p>
-<a href="https://github.com/vnessa95/numberGame" className="goto"><i className="fab fa-github-square fa-2x"></i></a>
-<i className="fab fa-node-js fa-2x"></i>
+<a href="https://github.com/vnessa95/numberGame" className="goto"><i id="i" className="fab fa-github-square fa-2x"></i></a>
+<i id="i" className="fab fa-node-js fa-2x"></i>
 </div>
 
 <div className="item">
@@ -47,9 +47,9 @@ export default class Portfolio extends Component {
 <img className="image" src='/img/yogasite.png' alt="yogasite"></img>
 </a>
 <p className="txt"></p>
-<i className="fab fa-react fa-2x"></i>
+<i id="i" className="fab fa-react fa-2x"></i>
 <a href="https://github.com/vnessa95/project4" className="goto"><i className="fab fa-github-square fa-2x"></i></a>
-<i className="fab fa-node-js fa-2x"></i>
+<i id="i" className="fab fa-node-js fa-2x"></i>
 </div>
                </section>
             </div>

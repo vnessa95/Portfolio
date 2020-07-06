@@ -32,12 +32,13 @@
     justify-content: space-around;
 }
 
-.fab{
+#fab{
   color: pink;
   box-shadow: inset 0px 0px 10px #ffbbbb, 0px 0px 10px #ff0000;
   text-shadow: 0px 0px 10px #ff0000, 2px 2px 4px #000;
   border: 1px solid pink;
   border-radius: 15px;
+  padding: 10px;
 }
 
 .fab:hover{
