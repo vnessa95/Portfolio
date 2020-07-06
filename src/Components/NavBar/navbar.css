@@ -38,6 +38,6 @@
 
     .links a:hover {
     color: whitesmoke;
-    text-shadow: 0 0 10px rgba(253, 89, 138, 0.918), 0 0 30px  rgba(253, 89, 138, 0.918), 0 0 40px rgba(253, 89, 138, 0.918), 0 0 50px rgba(250, 56, 146, 0.918), 0 0 60px rgba(253, 89, 138, 0.918), 0 0 70px rgba(253, 89, 138, 0.918);
+    text-shadow: 0 0 10px rgb(206, 9, 101), 0 0 30px  rgb(206, 9, 101), 0 0 40px rgb(206, 9, 101), 0 0 50px rgb(206, 9, 101), 0 0 60px rgb(206, 9, 101), 0 0 70px rgb(206, 9, 101);
 
 }

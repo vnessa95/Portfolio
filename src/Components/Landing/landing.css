@@ -16,9 +16,10 @@
 }
 
 .intro{
+  margin-top: 65px;
     float: right;
     width: 35%;
-    height: 100vh;
+    height: 100%;
     background-color: black;
     color: whitesmoke;
 }
