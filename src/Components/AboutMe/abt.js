@@ -16,7 +16,7 @@ export default class About extends Component {
                        <h1 class="header">Hello (World)</h1>
                        <h2>I'm <span className="name">Vanessa Baker.</span></h2>
                     <p className="me"> I am a junior front end developer.<br/>
-                    my journey started about 6 months ago with <a href="https://roadtohire.org/"><span className="r2h">Road to Hire,</span></a> a 6 month internship dedicated to learning code and programming languages, and using it to enhance how to user interacts with the U/I. 
+                    my journey started about 6 months ago with <a href="https://roadtohire.org/"><span className="r2h">Road to Hire,</span></a> a 6 month internship dedicated to learning code and programming languages, and using it to enhance how the user interacts with the U/I. 
                     i have always been driven by design and the creative side and i tend to express that in my work. I enjoy making responsive & dynamic websites/apps.<br/><br/><br/>
                     <span className="langs">languages & frameworks:<br/>
                         <ul className="skills">
