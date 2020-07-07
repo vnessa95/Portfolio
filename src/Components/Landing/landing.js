@@ -20,7 +20,7 @@ export default class Landing extends Component {
                     <h1><br />Vanessa Baker</h1>
                     <div className="typing">
                         <p className="type1">  Learner.</p>
-                        <p className="type2">  Creater.</p>
+                        <p className="type2">  Creator.</p>
                         <p className="type3">  Developer.</p>
                     </div>
                     <div className="btns">

@@ -70,10 +70,6 @@
     padding-top: 35px;
 }
 
-.skill{
-    font-size: 18px;
-}
-
 .r2h{
     background-image: linear-gradient( rgb(235, 158, 194) 0%, rgb(206, 9, 101) 100%);
     background-repeat: no-repeat;
@@ -88,6 +84,8 @@ font-size: 20px;
  .skill{
     list-style-type: none;
     font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
     }
 
 .fab:hover{
