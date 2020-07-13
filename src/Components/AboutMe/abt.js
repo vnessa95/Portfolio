@@ -18,7 +18,7 @@ export default class About extends Component {
                     <p className="me"> 
                  
 I am a junior developer whose journey started 6 months ago with <span className="r2h">Road To Hire</span>, an intership dedicated to learning code. in that 6 months I not only learned numerous languages i've named below but, i've had to oppurtinuty to build dynamic reactive sites......
-
+<br/><br/><br/>
 
                     <span className="langs">languages & frameworks:<br/>
                         <ul className="skills">
