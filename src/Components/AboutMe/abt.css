@@ -12,9 +12,9 @@
 .img1{
     clip-path: circle();
     shape-outside: circle();
-    width: 50%;
-    height: 50%;
     float: left;
+    width: 25%;
+    height: 25%;
 }
 
 .name{
@@ -96,5 +96,6 @@ cursor: pointer;
 .p{
     height: 100vh;
     margin-right: 100px;
+    margin-left: 165px;
 }
 

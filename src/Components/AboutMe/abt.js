@@ -9,15 +9,17 @@ export default class About extends Component {
             <div className="AbtContainer">
                 <NavBar />
 
-                    <img className="img1" alt="pink-chrysanthemum-flower" src="/img/flower1.png" />
+                    <img className="img1" alt="pink-chrysanthemum-flower" src="/img/Vanessa-Baker.jpeg" />
                     
                     
                    <div className="p">
                        <h1 class="header">Hello (World)</h1>
                        <h2>I'm <span className="name">Vanessa Baker.</span></h2>
-                    <p className="me"> I am a junior front end developer.<br/>
-                    my journey started about 6 months ago with <a href="https://roadtohire.org/"><span className="r2h">Road to Hire,</span></a> a 6 month internship dedicated to learning code and programming languages, and using it to enhance how the user interacts with the U/I. 
-                    i have always been driven by design and the creative side and i tend to express that in my work. I enjoy making responsive & dynamic websites/apps.<br/><br/><br/>
+                    <p className="me"> 
+                 
+I am a junior developer whose journey started 6 months ago with <span className="r2h">Road To Hire</span>, an intership dedicated to learning code. in that 6 months I not only learned numerous languages i've named below but, i've had to oppurtinuty to build dynamic reactive sites......
+
+
                     <span className="langs">languages & frameworks:<br/>
                         <ul className="skills">
                             <li className="skill">&bull;CSS</li>
