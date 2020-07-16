@@ -9,8 +9,9 @@
 
 .work{
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto auto;
     grid-row-gap: 55px;
+    grid-column-gap: 55px;
     grid-template-areas: 
     "image"
     "heading"
@@ -18,13 +19,12 @@
     "fab";
     text-align: center;
     margin: auto;
-    padding: 55px;
-    height: 100%;
-    width: 75%;
+    padding: 50px;
+ 
 }
 
 .image{
-    height: 50%;
+   height: 250px;
     width: 100%;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;

@@ -15,6 +15,7 @@ function App() {
     <Route exact path="/" component ={Landing} />
     <Route exact path="/abtme" component ={About} />
     <Route exact path="/portfolio" component ={Portfolio} />
+ 
       </div>
     </Router>
   );

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './abt.css'
 import NavBar from '../NavBar/navbar'
+import Footer from  '../Footer/footer'
 
 
 export default class About extends Component {
@@ -8,19 +9,30 @@ export default class About extends Component {
         return (
             <div className="AbtContainer">
                 <NavBar />
-
-                    <img className="img1" alt="pink-chrysanthemum-flower" src="/img/Vanessa-Baker.jpeg" />
+<div className="whoseme">
+                    <img className="img1" alt="vanessa-baker-portrait" src="/img/Vanessa-Baker.jpeg" />
+                    
                     
                     
                    <div className="p">
-                       <h1 class="header">Hello (World)</h1>
-                       <h2>I'm <span className="name">Vanessa Baker.</span></h2>
+                       <h1 class="header">Hello (World)!</h1>
+                       <h2 className="names">I'm <span className="name">Vanessa Baker.</span></h2>
                     <p className="me"> 
                  
-I am a junior developer whose journey started 6 months ago with <span className="r2h">Road To Hire</span>, an intership dedicated to learning code. in that 6 months I not only learned numerous languages i've named below but, i've had to oppurtinuty to build dynamic reactive sites......
+
+I am a junior developer who loves front-end but also, appreciate the back-end.
+Naturally, I'm curious & like to figure out how things work. I believe our favorite things are defined aesthetically. 
+I enjoy making dynamic, purposeful, & functional web applications that have a polished, clear, and distinct design.
+
+<br/><br/> 
+I have a strong grasp of web design and development and I am continuing to learn & implement code constantly.
+
+My journey started with a 6 month coding internship, <br/>
+   <span className="r2h">Road To Hire</span>. During that time I've had the oppurtunity to build & deploy applications using languages, libraries and frameworks like; JavaScript, React, and Node.js.
+
 <br/><br/><br/>
 
-                    <span className="langs">languages & frameworks:<br/>
+                    <span className="langs">Skills:<br/>
                         <ul className="skills">
                             <li className="skill">&bull;CSS</li>
                             <li className="skill">&bull;BOOTSTRAP</li>
@@ -34,13 +46,14 @@ I am a junior developer whose journey started 6 months ago with <span className=
                         </ul>
                     </span>
                       </p>
-                    
+                      </div>
                     <div className="icons">
                     <a href="https://www.linkedin.com/in/vanessa-baker-b80237181/" ><i id="fab" className="fab fa-linkedin-in fa-3x"></i></a>
                     <a href="https://www.instagram.com/thafloralyogi/"><i id="fab"  className="fab fa-instagram fa-3x"></i></a>
                     <a href="https://github.com/vnessa95"><i id="fab"  className="fab fa-github fa-3x"></i></a>
                     </div>
                     </div>
+                    <Footer/>
             </div>
         )
       }

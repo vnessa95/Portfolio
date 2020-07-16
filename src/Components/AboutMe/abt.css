@@ -6,32 +6,47 @@
 .AbtContainer{
     background-color: black;
     height: 100%;
-    width: 100%;
+    width: auto;
+    
+}
+
+.whoseme{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 35%;
 }
 
 .img1{
-    clip-path: circle();
-    shape-outside: circle();
-    float: left;
-    width: 25%;
-    height: 25%;
+    padding: 10px;
+    margin: auto;
+    width: 35%;
+    border-radius: 55%;
 }
 
 .name{
-    background-image: linear-gradient(120deg, rgb(235, 158, 194) 0%, rgb(206, 9, 101) 100%);
+    background-image: linear-gradient(120deg, rgb(235, 158, 194) 35%, rgb(206, 9, 101) 75%);
     background-repeat: no-repeat;
     background-size: 100% 0.2em;
     background-position: 0 95%;
     transition: 0.25s ease-in;
     height: 100%;
     width: 100%;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    
+}
+.names{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
 }
 
 .me{
+    text-align: center;
     padding: 15px;
     font-size: 18px;
-    font-family: 'Nova Mono', monospace;
-    text-transform: capitalize;
+    font-weight: 500;
+    
 }
 
 
@@ -52,10 +67,15 @@
   border-radius: 15px;
   padding: 10px;
 }
+.header{
+    text-align: center;
+}
 
 .langs{
     font-weight: bold;
-    background-image: linear-gradient( rgb(235, 158, 194) 0%, rgb(206, 9, 101) 100%);
+    background-image: linear-gradient(120deg, rgb(235, 158, 194) 0%, rgb(206, 9, 101) 20%);
+    background-position: 0 95%;
+    transition: 0.25s ease-in;
     background-repeat: no-repeat;
     background-size: auto 0.2em;
     background-position: 0 93%;
@@ -63,7 +83,7 @@
 }
 
 .skills{
-    font-family: 'Nova Mono', monospace;
+    font-family: 'Rubik', sans-serif;
     display: inline-grid;
     grid-template-columns:  12% 49.5% 26.3%;
     grid-gap: 25px;
@@ -71,7 +91,9 @@
 }
 
 .r2h{
-    background-image: linear-gradient( rgb(235, 158, 194) 0%, rgb(206, 9, 101) 100%);
+    background-image: linear-gradient(120deg, rgb(235, 158, 194) 35%, rgb(206, 9, 101) 75%);
+    background-position: 0 95%;
+    transition: 0.25s ease-in;
     background-repeat: no-repeat;
     background-size: auto 0.2em;
     background-position: 0 85%;
@@ -95,7 +117,6 @@ cursor: pointer;
 
 .p{
     height: 100vh;
-    margin-right: 100px;
-    margin-left: 165px;
+   
 }
 
