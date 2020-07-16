@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './portfolio.css'
 import NavBar from '../NavBar/navbar'
-
+import Footer from  '../Footer/footer'
 
 export default class Portfolio extends Component {
     render() {
@@ -115,6 +115,7 @@ export default class Portfolio extends Component {
 <i id="i" className="fab fa-node-js fa-2x"></i>
 </div> */}
                </section>
+               <Footer/>
             </div>
         )
     }

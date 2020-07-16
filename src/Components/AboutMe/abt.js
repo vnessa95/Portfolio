@@ -47,11 +47,7 @@ My journey started with a 6 month coding internship, <br/>
                     </span>
                       </p>
                       </div>
-                    <div className="icons">
-                    <a href="https://www.linkedin.com/in/vanessa-baker-b80237181/" ><i id="fab" className="fab fa-linkedin-in fa-3x"></i></a>
-                    <a href="https://www.instagram.com/thafloralyogi/"><i id="fab"  className="fab fa-instagram fa-3x"></i></a>
-                    <a href="https://github.com/vnessa95"><i id="fab"  className="fab fa-github fa-3x"></i></a>
-                    </div>
+            
                     </div>
                     <Footer/>
             </div>

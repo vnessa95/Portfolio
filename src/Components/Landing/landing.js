@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './landing.css'
 import NavBar from '../NavBar/navbar'
 import { Link } from 'react-router-dom';
-
+import Footer from  '../Footer/footer'
 
 
 
@@ -28,8 +28,9 @@ export default class Landing extends Component {
                         <button type="button"><Link to="abtme">Who am I?</Link></button>
                     </div>
                 </section>
-
+                <Footer/>
             </div>
+            
         )
     }
 }
