@@ -18,9 +18,6 @@
     padding: 0;
 }
 
-.resume{
-    text-decoration: underline;
-}
 
 
 .links li {
@@ -34,11 +31,11 @@
     line-height: 1.3em;
     box-sizing: border-box;
     background-color: black;
-    list-style-type: none;
+    text-decoration: none;
     border-radius: 20%;
     padding: 15px 15px;
     color: whitesmoke;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat Subrayada', sans-serif;
 }
 
     .links a:hover {

@@ -10,6 +10,7 @@
     padding: 7px;
 }
 
+
 #fab:hover{
     font-size: 20px;
     color: rgb(235, 158, 194);
@@ -24,6 +25,5 @@
 flex-direction: column;
 justify-content: center;
 align-items: center;
-     
 
   }

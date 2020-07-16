@@ -51,6 +51,12 @@
     font-family: 'Montserrat Subrayada', sans-serif;
 }
 
+.txt{
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+}
+
 #i{
     color: black;
     padding: 10px;
