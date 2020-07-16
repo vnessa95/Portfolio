@@ -105,7 +105,7 @@ export default class Portfolio extends Component {
 <i id="i" className="fab fa-node-js fa-2x"></i>
 </div>
 
-<div className="item">
+{/* <div className="item">
     <a href="#">
 <img className="image"  src='' alt="#"></img>
 </a>
@@ -113,7 +113,7 @@ export default class Portfolio extends Component {
 <i id="i" className="fab fa-react fa-2x"></i>
 <a href="#" className="goto"><i id="i" className="fab fa-github-square fa-2x"></i></a>
 <i id="i" className="fab fa-node-js fa-2x"></i>
-</div>
+</div> */}
                </section>
             </div>
         )
