@@ -10,9 +10,10 @@ import Footer from  '../Footer/footer'
 
 export default class Landing extends Component {
     render() {
-        return (
+        return (<div>
+            <NavBar />
             <div className="HomeContainer">
-                <NavBar />
+                
                 <section className="imgCon">
                     <img class="img" alt="snapdragonFlower" src="/img/flower.jpg" />
                 </section>
@@ -28,9 +29,10 @@ export default class Landing extends Component {
                         <button type="button"><Link to="abtme">Who am I?</Link></button>
                     </div>
                 </section>
-                <Footer/>
+              
             </div>
-            
+            <Footer/>
+            </div>
         )
     }
 }

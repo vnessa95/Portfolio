@@ -1,13 +1,15 @@
 .icons{
     background-color: black;
-    padding: 10px;
-    float: right;
+
 }
 
 
 .icons .social{
-    float: right;
     padding: 7px;
+}
+
+.connect{
+    font-weight: 600;
 }
 
 
@@ -19,11 +21,10 @@
     
 
   .FootContainer{
-      height: 115px;
-      width: 100vw;
+      height: auto;
+      width: 100%;
       display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+      justify-content: space-between;
+      
 
   }
